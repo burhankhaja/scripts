@@ -1,7 +1,9 @@
 # PROBLEM NO 1: HOW TO NOT GET SOLC IMPORT ERRORS ?
 
 command
-solc --base-path . --allow-paths . ./path/to/compiling_file
+```
+$ solc --base-path . --allow-paths . ./path/to/compiling_file
+```
 
 Run this command inside main root directory
 in this example test directory
@@ -14,4 +16,6 @@ to be compiled
 # PROBLEM NO 2 : HOW TO USE REMAPPINGS IN SOLC COMPILER ?
 
 **openzeppelin example**
+```
 $ solc --base-path . --allow-paths .  @openzeppelin=node_modules/@openzeppelin ./PATH/FILE.sol
+```
