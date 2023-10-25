@@ -1,5 +1,6 @@
 # PROBLEM NO 1: HOW TO NOT GET SOLC IMPORT ERRORS ?
 **[PHIND](https://www.phind.com/search?cache=umnoretjgp1c07hpywmeqyiw)**
+
 command
 ```
 $ solc --base-path . --allow-paths . ./path/to/compiling_file
